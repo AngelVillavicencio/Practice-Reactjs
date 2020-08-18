@@ -1,0 +1,66 @@
+{
+    "tasks":[
+        {
+            "title": "Task 1",
+            "responsible": "Angel",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "Task 2",
+            "responsible": "Arturo",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "Task 3",
+            "responsible": "Tavo",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "Task 4",
+            "responsible": "luis",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "Task 5",
+            "responsible": "villavicencio",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        }
+    ],
+    "pendientes":[
+        {
+            "title": "PENDIn 1",
+            "responsible": "Angel",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "PENDIn 2",
+            "responsible": "Arturo",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "PENDIn 3",
+            "responsible": "Tavo",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "PENDIn 4",
+            "responsible": "luis",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        },
+        {
+            "title": "PENDIn 5",
+            "responsible": "villavicencio",
+            "description": "lorem impsum",
+            "priotity":"Low"
+        }
+    ]
+}
