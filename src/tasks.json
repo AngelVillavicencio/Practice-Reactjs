@@ -4,31 +4,31 @@
             "title": "Task 1",
             "responsible": "Angel",
             "description": "lorem impsum",
-            "priotity":"Low"
+            "priority":"Low"
         },
         {
             "title": "Task 2",
             "responsible": "Arturo",
             "description": "lorem impsum",
-            "priotity":"Low"
+            "priority":"Low"
         },
         {
             "title": "Task 3",
             "responsible": "Tavo",
             "description": "lorem impsum",
-            "priotity":"Low"
+            "priority":"Low"
         },
         {
             "title": "Task 4",
             "responsible": "luis",
             "description": "lorem impsum",
-            "priotity":"Low"
+            "priority":"Low"
         },
         {
             "title": "Task 5",
             "responsible": "villavicencio",
             "description": "lorem impsum",
-            "priotity":"Low"
+            "priority":"Low"
         }
     ],
     "pendientes":[
@@ -57,7 +57,7 @@
             "priotity":"Low"
         },
         {
-            "title": "PENDIn 5",
+            "title": "pedin 5",
             "responsible": "villavicencio",
             "description": "lorem impsum",
             "priotity":"Low"

@@ -1,24 +1,34 @@
 import React, { Component } from 'react';
 
 class TaskForm extends Component {
-	constructor() {
-		super();
-		this.state = {
-			title: '',
-			responsible: '',
-			descripcion: '',
-			priority: 'low'
-		};
+	state = {
+		title: '',
+		responsible: '',
+		description: '',
+		priority: 'low'
+	};
+
+	handleInput=(e)=> {
+		const { value, name } = e.target;
+		this.setState({
+			[name]: value
+		});
 	}
 
-	handleInput(e) {
-		console.log(e.target.value, e.target.name);
+	handleSubmit=(e)=> {
+		e.preventDefault();
+		this.props.onAddTask(this.state);
+
+		console.log(this.state);
+		console.log('HACKING TO NASA 3 2 1.....');
 	}
+
 
 	render() {
+		console.log(this.state);
 		return (
 			<div className="card">
-				<form className="card-body">
+				<form className="card-body" onSubmit={this.handleSubmit}>
 					<div className="form-group">
 						<input
 							type="text"
